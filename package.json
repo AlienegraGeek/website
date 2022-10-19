@@ -1,0 +1,30 @@
+{
+  "name": "website",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.0.10",
+    "element-plus": "^2.2.18",
+    "nprogress": "^0.2.0",
+    "vue": "^3.2.37",
+    "vue-router": "^4.0.14"
+  },
+  "devDependencies": {
+    "@types/nprogress": "^0.2.0",
+    "@vitejs/plugin-vue": "^3.1.0",
+    "node-sass": "^7.0.1",
+    "sass": "^1.54.3",
+    "sass-loader": "^13.0.2",
+    "standard": "^17.0.0",
+    "style-loader": "^3.3.1",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0",
+    "vue-tsc": "^0.40.4"
+  }
+}
